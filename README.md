@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript PM2 Typescript Demo
 ===========================
+
+注意：需要使用当前安装的`pm2`安装`typescript`才行，见`postinstall`。
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-

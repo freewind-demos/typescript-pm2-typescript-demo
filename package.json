@@ -1,12 +1,12 @@
 {
-    "scripts": {
-        "postinstall": "./node_modules/.bin/pm2 install typescript",
-        "start": "pm2 start hello.ts"
-    },
-    "devDependencies": {
-        "@types/node": "13.7.7",
-        "pm2": "5.1.2",
-        "ts-node": "8.6.2",
-        "typescript": "3.8.3"
-    }
+  "scripts": {
+    "postinstall": "./node_modules/.bin/pm2 install typescript",
+    "start": "pm2 start hello.ts"
+  },
+  "devDependencies": {
+    "@types/node": "13.7.7",
+    "pm2": "5.1.2",
+    "ts-node": "8.6.2",
+    "typescript": "5.3.3"
+  }
 }
